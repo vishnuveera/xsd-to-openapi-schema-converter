@@ -1,0 +1,30 @@
+{
+  "components": {
+    "schemas": {
+      "PersonType": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string"
+          },
+          "Age": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "IsActive": {
+            "type": "boolean"
+          },
+          "Balance": {
+            "type": "number",
+            "format": "float"
+          }
+        },
+        "required": [
+          "Name",
+          "IsActive",
+          "Balance"
+        ]
+      }
+    }
+  }
+}
